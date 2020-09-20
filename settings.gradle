@@ -1,0 +1,14 @@
+pluginManagement {
+    repositories {
+        gradlePluginPortal {
+            content {
+                excludeModule 'org.jenkins-ci.plugins', 'job-dsl-core'
+            }
+        }
+        maven {
+            url 'https://repo.jenkins-ci.org/releases/'
+        }
+    }
+}
+
+rootProject.name = 'xyz.bebee.jenkins.deployer'
