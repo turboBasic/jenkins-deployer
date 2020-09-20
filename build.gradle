@@ -36,9 +36,9 @@ jenkins {
         job 'gradle-01', {
             customWorkspace 'workspace/build'
             environmentVariables {
-                envs
-                    GIT_COMMITTER_NAME:
-                    GIT_COMMITTER_EMAIL: 'off@boun.cr'
+                envs \
+                    GIT_COMMITTER_NAME:  'turboBasic ⚡💀⚡',
+                    GIT_COMMITTER_EMAIL: 'off@boun.cr',
             }
             scm {
                 git 'https://github.com/turboBasic/jenkins-gradle.git'
